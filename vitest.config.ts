@@ -4,6 +4,7 @@ import path from "path";
 
 export default defineConfig({
   plugins: [react()],
+  base: "/edu-buddy-hub-41/",
   test: {
     environment: "jsdom",
     globals: true,
