@@ -25,7 +25,7 @@ const App = () => (
       <TooltipProvider>
         <Toaster />
         <Sonner />
-        <BrowserRouter>
+        <BrowserRouter basename="/edu-buddy-hub-41">
           <AuthProvider>
             <Routes>
               {/* Public */}
